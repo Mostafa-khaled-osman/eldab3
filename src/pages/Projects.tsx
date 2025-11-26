@@ -8,9 +8,20 @@ const Projects = () => {
 
   const projects = [
     {
-      title: language === 'ar' ? 'مشروع النقل الوطني' : 'National Transport Project',
-      client: language === 'ar' ? 'شركة النقل الوطني' : 'National Transport Company',
-      location: language === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
+      title: language === 'ar' ? 'فرع كفرالزيات' : 'National Transport Project',
+      client: language === 'ar' ? 'فرع كفرالزيات' : 'National Transport Company',
+      location: language === 'ar' ? 'الغربية، كفرالزيات' : 'Cairo, Egypt',
+      date: '2022',
+      description: language === 'ar'
+        ? 'توريد قطع غيار كاملة لأسطول من 50 شاحنة نقل ثقيل'
+        : 'Complete spare parts supply for a fleet of 50 heavy transport trucks',
+      status: language === 'ar' ? 'مكتمل' : 'Completed',
+      category: language === 'ar' ? 'نقل ثقيل' : 'Heavy Transport',
+    },
+    {
+      title: language === 'ar' ? 'فرع راس الحكمة ' : 'Large Mining Project',
+      client: language === 'ar' ? 'فرع راس الحكمة ' : 'Egyptian Mining Company',
+      location: language === 'ar' ? 'راس الحكمة، مصر' : 'Aswan, Egypt',
       date: '2024',
       description: language === 'ar'
         ? 'توريد قطع غيار كاملة لأسطول من 50 شاحنة نقل ثقيل'
@@ -19,59 +30,15 @@ const Projects = () => {
       category: language === 'ar' ? 'نقل ثقيل' : 'Heavy Transport',
     },
     {
-      title: language === 'ar' ? 'مشروع البناء السريع' : 'Rapid Construction Project',
-      client: language === 'ar' ? 'شركة التشييد المتقدمة' : 'Advanced Construction Co.',
-      location: language === 'ar' ? 'الإسكندرية، مصر' : 'Alexandria, Egypt',
+      title: language === 'ar' ? 'فرع دمنهور ' : 'Ports Project',
+      client: language === 'ar' ? 'فرع دمنهور ' : 'Ports Authority',
+      location: language === 'ar' ? 'دمنهور، مصر' : 'Port Said, Egypt',
       date: '2024',
       description: language === 'ar'
-        ? 'توريد قطع غيار لمعدات البناء والحفر الثقيلة'
-        : 'Spare parts supply for heavy construction and excavation equipment',
-      status: language === 'ar' ? 'قيد التنفيذ' : 'In Progress',
-      category: language === 'ar' ? 'معدات بناء' : 'Construction Equipment',
-    },
-    {
-      title: language === 'ar' ? 'مشروع التعدين الكبير' : 'Large Mining Project',
-      client: language === 'ar' ? 'شركة المناجم المصرية' : 'Egyptian Mining Company',
-      location: language === 'ar' ? 'أسوان، مصر' : 'Aswan, Egypt',
-      date: '2023',
-      description: language === 'ar'
-        ? 'توريد وصيانة قطع غيار معدات التعدين الثقيلة'
-        : 'Supply and maintenance of heavy mining equipment spare parts',
+        ? 'توريد قطع غيار كاملة لأسطول من 50 شاحنة نقل ثقيل'
+        : 'Complete spare parts supply for a fleet of 50 heavy transport trucks',
       status: language === 'ar' ? 'مكتمل' : 'Completed',
-      category: language === 'ar' ? 'معدات تعدين' : 'Mining Equipment',
-    },
-    {
-      title: language === 'ar' ? 'مشروع الموانئ' : 'Ports Project',
-      client: language === 'ar' ? 'هيئة الموانئ' : 'Ports Authority',
-      location: language === 'ar' ? 'بورسعيد، مصر' : 'Port Said, Egypt',
-      date: '2023',
-      description: language === 'ar'
-        ? 'توريد قطع غيار لرافعات الحاويات ومعدات الموانئ'
-        : 'Spare parts supply for container cranes and port equipment',
-      status: language === 'ar' ? 'مكتمل' : 'Completed',
-      category: language === 'ar' ? 'معدات موانئ' : 'Port Equipment',
-    },
-    {
-      title: language === 'ar' ? 'مشروع الطرق السريعة' : 'Highway Project',
-      client: language === 'ar' ? 'وزارة النقل' : 'Ministry of Transport',
-      location: language === 'ar' ? 'مصر' : 'Egypt',
-      date: '2024',
-      description: language === 'ar'
-        ? 'توريد قطع غيار لمعدات رصف وصيانة الطرق'
-        : 'Spare parts supply for road paving and maintenance equipment',
-      status: language === 'ar' ? 'قيد التنفيذ' : 'In Progress',
-      category: language === 'ar' ? 'معدات طرق' : 'Road Equipment',
-    },
-    {
-      title: language === 'ar' ? 'مشروع الزراعة الحديثة' : 'Modern Agriculture Project',
-      client: language === 'ar' ? 'شركة الزراعة المتطورة' : 'Advanced Agriculture Co.',
-      location: language === 'ar' ? 'الفيوم، مصر' : 'Fayoum, Egypt',
-      date: '2023',
-      description: language === 'ar'
-        ? 'توريد قطع غيار للجرارات والمعدات الزراعية الثقيلة'
-        : 'Spare parts supply for tractors and heavy agricultural equipment',
-      status: language === 'ar' ? 'مكتمل' : 'Completed',
-      category: language === 'ar' ? 'معدات زراعية' : 'Agricultural Equipment',
+      category: language === 'ar' ? 'نقل ثقيل' : 'Heavy Transport',
     },
   ];
 

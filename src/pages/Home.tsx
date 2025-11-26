@@ -3,7 +3,7 @@ import { ArrowRight, Truck, Package, Shield, Headphones } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
-// import heroImage from '@/assets/hero-image.jpg';
+import eldab3partner from '@/assets/eldab3partners.jpg';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -103,7 +103,7 @@ const Home = () => {
 
       {/* About Preview Section */}
       <section className="section-padding">
-        <div className="container-custom">
+        <div className="container-custom justify-between ">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -120,7 +120,8 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-slide-in-right">
-              <div className="aspect-video bg-gradient-to-br from-primary to-primary-glow rounded-2xl shadow-2xl" />
+              {/* <div className="aspect-video bg-gradient-to-br from-primary to-primary-glow rounded-2xl shadow-2xl" /> */}
+              <img src={eldab3partner} alt="eldab3partner" className='eldab3partner'/>
             </div>
           </div>
         </div>

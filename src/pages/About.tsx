@@ -1,7 +1,7 @@
 import { CheckCircle, Target, Users, Award } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
-import warehouseImage from '@/assets/Temac.svg';
+import eldab3partner from '@/assets/eldab3partners.jpg';
 
 const About = () => {
   const { t, language } = useLanguage();
@@ -75,7 +75,7 @@ const About = () => {
             </div>
             <div className="relative animate-slide-in-right">
               <img
-                src={warehouseImage}
+                src={eldab3partner}
                 alt="Warehouse"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />

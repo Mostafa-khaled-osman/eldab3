@@ -16,7 +16,7 @@ const translations = {
     'nav.home': 'الرئيسية',
     'nav.about': 'عن الشركة',
     'nav.services': 'خدماتنا',
-    'nav.projects': 'المشاريع',
+    'nav.projects': 'الفروع',
     'nav.suppliers': 'الموردون',
     'nav.contact': 'التواصل',
     
@@ -48,7 +48,7 @@ const translations = {
     'services.support.desc': 'فريق متخصص لمساعدتك في اختيار القطع المناسبة',
     
     // Projects
-    'projects.title': 'مشاريعنا',
+    'projects.title': 'فروعنا',
     'projects.subtitle': 'نفخر بإنجازاتنا مع عملائنا',
     
     // Suppliers
@@ -66,7 +66,7 @@ const translations = {
     'contact.info': 'معلومات التواصل',
     'contact.address': 'العنوان',
     'contact.hours': 'ساعات العمل',
-    'contact.hours.value': 'السبت - الخميس: 9:00 ص - 6:00 م',
+    'contact.hours.value': 'كل يوم : 9:00 ص - 1:00 ص',
     
     // Footer
     'footer.about': 'عن الشركة',
@@ -79,7 +79,7 @@ const translations = {
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.services': 'Services',
-    'nav.projects': 'Projects',
+    'nav.projects': 'Branches',
     'nav.suppliers': 'Suppliers',
     'nav.contact': 'Contact',
     
@@ -111,7 +111,7 @@ const translations = {
     'services.support.desc': 'Specialized team to help you choose the right parts',
     
     // Projects
-    'projects.title': 'Our Projects',
+    'projects.title': 'Our Branches',
     'projects.subtitle': 'We take pride in our achievements with our clients',
     
     // Suppliers
@@ -129,7 +129,7 @@ const translations = {
     'contact.info': 'Contact Information',
     'contact.address': 'Address',
     'contact.hours': 'Working Hours',
-    'contact.hours.value': 'Saturday - Thursday: 9:00 AM - 6:00 PM',
+    'contact.hours.value': ' everyday : 9:00 AM - 1:00 AM',
     
     // Footer
     'footer.about': 'About Company',

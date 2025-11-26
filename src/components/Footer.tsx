@@ -24,9 +24,9 @@ const Footer = () => {
               {t('footer.about.text')}
             </p>
             <div className="flex gap-3">
-              <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+              <Link to="https://www.facebook.com/Eldab3auto" className="text-muted-foreground hover:text-accent transition-colors">
                 <Facebook className="h-5 w-5" />
-              </a>
+              </Link>
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
@@ -59,7 +59,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">+20 123 456 7890</span>
+                <span className="text-muted-foreground">+20 1150720020</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
@@ -68,7 +68,7 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  {t('contact.address')}: القاهرة، مصر
+                  {t('contact.address')}: الغربية ، كفرالزيات
                 </span>
               </li>
             </ul>

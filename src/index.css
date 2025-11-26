@@ -192,3 +192,7 @@ All colors MUST be HSL.
   background: url('/src/assets/Eldab3.jpg') no-repeat center center;
   background-size: cover;
 }
+.eldab3partner {
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
